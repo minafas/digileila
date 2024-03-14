@@ -1,0 +1,54 @@
+.story{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.story .centerstory{
+  width: 80%;
+  height: inherit;
+  .swiper-slide{
+    align-items: center;
+    justify-content: center;
+    & div{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-flow: column wrap;
+        .top{
+            width: inherit;
+            height: 70%;
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: column wrap;
+            & img{
+                width: 74px;
+                height: 74px;
+                border-radius: 50%;
+                outline: 2px solid #9A489C;
+                outline-offset: 3px;
+                margin-bottom: 10px;
+                display: flex;
+            }
+        }
+        .bottom{
+            width: inherit;
+            height: 30%;
+            display: flex;
+            justify-content: flex-start;
+            flex-flow: column wrap;
+            & h5{
+                font-family: var(--font-family);
+                font-size: 10px;
+                line-height: 20px;
+                color: #23254e;
+                opacity: 0.8;
+            }
+        }
+        }
+    }
+}
+

@@ -1,0 +1,106 @@
+.collect__discount {
+  width: 100%;
+  .collect__discount__line {
+    width: 85%;
+    margin: 10px auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 20px;
+    .collect__discount__top {
+      width: 100%;
+      margin: 30px auto;
+      padding: 20px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      & h3 {
+        width: 520px;
+        font-family: var(--font-family);
+        font-size: 21px;
+        color: #000000;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+      }
+    }
+    .collect__discount__active {
+      width: 100%;
+      margin: 10px 0px 0px 0px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      .active__items {
+        display: flex;
+        flex-flow: row wrap;
+        .n-l-l{
+          border-left: none;
+        }
+        & a {
+          width: 240px;
+          height: 260px;
+          text-decoration: none;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          border-left: 1px solid #e0e0e2;
+          border-bottom: 1px solid #e0e0e2;
+          .pic {
+            width: 201px;
+            height: 150px;
+            padding: 25px 0px 0px 0px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            & img {
+              width: 150px;
+              height: 150px;
+            }
+          }
+          .disco-text{
+            width: 240px;
+            height: 35px;
+            display: flex;
+            flex-flow: row-reverse;
+            justify-content: center;
+            align-items: center;
+            .number {
+              width: 170px;
+              height: 33px;
+              display: flex;
+              justify-content:left;
+              align-items: center;
+              & span {
+                font-family: var(--font-family-number);
+                font-size: 20px;
+                font-weight: bolder;
+                color: #3f4064;
+              } 
+            }
+            .no-disco{
+              width: 220px;
+            }
+            .disco {
+              width: 35px;
+              height: 23px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #d32f2f;
+              box-sizing: border-box;
+              border-radius: 35%;
+              & span {
+                font-family: var(--font-family-number);
+                font-size: 16px;
+                font-weight: bolder;
+                color: #ffffff;
+              }
+          }
+        }
+      }
+    }
+  }
+}
+}

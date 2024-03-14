@@ -1,0 +1,124 @@
+.wonderfull{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+}
+.wonder__center{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: #EF3F55;
+    padding: 20px 20px 20px 0;
+    border-radius: 20px;
+}
+.active__wonderfull{
+    align-items: center;
+    background-color: #EF3F55; 
+}
+.active__wonderfull div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;   
+}
+.active__wonderfull svg:nth-of-type(1){
+    width: 92px;
+    height: 77px;
+}
+.active__wonderfull img{
+    width: 130px;
+    height: 100px;
+}
+.active__wonderfull a{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2px;
+}
+.active__wonderfull a svg g{
+    fill:#ffffff;
+}
+.wonder a{
+    display: flex;
+    flex-flow: column wrap;
+    text-decoration: none;
+    row-gap: 5px;
+}
+.wonder a img{
+    width: 150px;
+    height: 150px;
+}
+.wonder div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.wonder__start{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.wonder div:nth-of-type(2){
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    font-family: var(--font-family-number);
+    padding: 0 1px;
+}
+.wonder div:nth-of-type(3){
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    text-decoration: line-through;
+    font-family: var(--font-family-number);
+    color: #c0c2c5;
+    padding: 0 20px;
+}
+.wonder div:nth-of-type(2) h5{
+    width: 34px;
+    height: 22px;
+    background-color: #d32f2f;
+    border-radius: 12px;
+    padding: 1px;
+}
+.wonder a h4{
+    font-size: 18px;
+    color: #3f4064;
+}
+.wonder a h5{
+    font-size: 16px;
+    color: #ffffff;
+}
+.wonder a h6{
+    font-size: 16px;
+    color:#c0c2c5;
+}
+.wonder__last{
+    width: 192px;
+    height: 262px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.arrows{
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    border: 1px solid #19bfd3;
+    border-radius: 50%;
+}
+.wonder h3{
+    width: 77px;
+    height: 30px;
+    margin: 12px 0 0;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #3f4064;
+}
