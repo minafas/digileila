@@ -132,6 +132,9 @@ header {
           & svg {
             margin-left: 7px;
           }
+          &:hover + .sub__menu {
+            height: 70vh;
+          }
         }
         .sub__menu {
           width: 70%;
@@ -189,7 +192,7 @@ header {
                     color: #19bfd3;
                   }
                 }
-                
+
                 .sub__sub__menu__child {
                   width: 24%;
                   height: 100%;
@@ -226,9 +229,9 @@ header {
               }
             }
           }
-        }
-        &:hover .sub__menu{
-          height: 70vh;
+          &:hover {
+            height: 70vh;
+          }
         }
       }
     }
@@ -259,4 +262,3 @@ header {
   width: 12px;
   background-color: #b8bdc0;
 }
-
