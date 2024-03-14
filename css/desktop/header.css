@@ -245,12 +245,275 @@ header {
     color: #3f4064;
     padding-left: 30px;
     .cities {
-      display: flex;
-      justify-content: flex-end;
       align-items: center;
       flex-flow: row wrap;
+      display: flex;
       column-gap: 5px;
-      cursor: pointer;
+      font-family: var(--font-family) !important;
+      label[for="show"] {
+        cursor: pointer;
+      }
+      label[for="close"] {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+        text-align: center;
+        font-size: 40px;
+        color: #424750;
+      }
+      .select__town {
+        width: 600px;
+        height: 800px;
+        background-color: #ffffff;
+        display: none;
+        position: absolute;
+        inset: 0;
+        margin: 50px auto;
+        overflow: auto;
+        overflow-x: hidden;
+        direction: ltr;
+        .select__state {
+          width: inherit;
+          height: 80px;
+          background-color: #ffffff;
+          box-sizing: border-box;
+          border-bottom: 2px solid #efeff0;
+          font-family: BINAZANIN;
+          align-items: center;
+          display: flex;
+          flex-flow: row-reverse wrap;
+          font-size: 30px;
+          font-weight: bold;
+          padding: 20px;
+          color: black;
+          opacity: 0.8;
+        }
+        .town__child {
+          width: inherit;
+          height: inherit;
+          background-color: #ffffff;
+          display: flex;
+          box-sizing: border-box;
+          flex-flow: column wrap;
+          .location {
+            width: inherit;
+            height: 80px;
+            border-bottom: 3px solid #efeff0;
+            background-color: #ffffff;
+            font-family: BINAZANIN;
+            align-items: center;
+            display: flex;
+            box-sizing: border-box;
+            flex-flow: row-reverse wrap;
+            font-size: 25px;
+            font-weight: bold;
+            color: #19bfd6;
+            opacity: 0.8;
+            padding-right: 20px;
+            & span {
+              display: flex;
+              align-items: center;
+              column-gap: 20px;
+              box-sizing: border-box;
+            }
+          }
+          .town__child__1 {
+            width: inherit;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              display: flex;
+              flex-flow: row-reverse wrap;
+              column-gap: 360px;
+              align-items: center;
+            }
+          }
+          .town__child__2 {
+            width: inherit;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 360px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+          .town__child__3 {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              width: 600px;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 440px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+          .town__child__4 {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              width: 600px;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 430px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+          .town__child__5 {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              width: 600px;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 400px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+          .town__child__6 {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              width: 600px;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 400px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+          .town__child__7 {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              width: 600px;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 430px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+          .town__child__8 {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family: Iran !important;
+            padding: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            border-bottom: 3px solid #efeff0;
+            cursor: pointer;
+            box-sizing: border-box;
+            & span {
+              width: 600px;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 410px;
+              align-items: center;
+              flex-flow: row-reverse wrap;
+            }
+          }
+        }
+      }
+      #show,
+      #close {
+        display: none;
+      }
+      #show:checked ~ .select__town {
+        display: block;
+      }
+      #close:checked ~ .select__town {
+        display: none;
+      }
     }
   }
 }
